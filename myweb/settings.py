@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['39.108.119.178']
 # Application definition
 
 INSTALLED_APPS = [
+    'app_01.apps.App01Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
